@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: black;
+    height: 50px;
+}
+
+#menu-wrapper {
+    height: 40px;
+    background-color: pink;
+} 
+#menu {
+    width: 700px;
+    margin: 0px auto;
+}
+#menu ul li {
+    display: inline;
+}
+
+#main {
+    width: 700px;
+    margin: 0px auto;
+}
+
+#top-ads {
+    height: 250px;
+    background-color: #ebebeb;
+}
+
+#content {
+    float: left;
+    width: 450px;
+}
+
+#hot-album {
+    background-color: #c4c4c4;
+    height: 100px;
+}
+
+#main-section {
+    background-color: white;
+}
+
+#sidebar {
+    float: right;
+    width: 250px;
+}
+
+#sub-album div {
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+}

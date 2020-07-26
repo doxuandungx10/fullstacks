@@ -1,0 +1,31 @@
+ul#ds-hoc-vien li:first-child {
+    color: red;
+}
+
+ul#ds-hoc-vien li:last-child {
+    color: saddlebrown;
+}
+
+ul#ds-hoc-vien li:nth-child(3) {
+    color:blue;
+}
+
+ul#ds-hoc-vien li:nth-child(3n+1) {
+    background-color:blue;
+}
+
+#username {
+    color: chartreuse;
+}
+
+input[id = username] {
+    color: blue;
+}
+
+[loai = mat-khau] {
+    background-color: crimson;
+}
+
+
+
+

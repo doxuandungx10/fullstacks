@@ -1,0 +1,6 @@
+#wrapper div {
+    display: inline-block;
+    width: 33%;
+    border: 1px solid black;
+}
+

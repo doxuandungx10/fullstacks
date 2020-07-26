@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    background-color: rgb(131, 93, 93);
+    height: 50px;
+}
+
+#laptrinhcuocsong {
+    float: left;
+    padding: 8px;
+    color: white;
+    font-size: 30px;
+}
+
+ul#option {
+    padding-top: 15px;
+    height: 50px;
+    float: right;
+}
+
+ul#option li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 15px;
+    text-align: center;
+}
+
+ul#option li a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+#header {
+    height: 350px;
+    background-color: rgb(184, 182, 182);
+}
+
+#header-ltcs {
+    padding-top: 50px;
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+#header-ltcs a {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+#header-ltcs p {
+    font-size: 20px;
+}
+
+ul#option2 {
+    width: 900px;
+    margin: 0px auto;
+}
+
+ul#option2 li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+ul#option2 li a {
+    font-size: 18px;
+    text-decoration: none;
+}

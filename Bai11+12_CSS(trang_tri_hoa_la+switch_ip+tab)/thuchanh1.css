@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+#switch {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#switch>input {
+    display: none;
+}
+
+#switch>span {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    position: relative;
+}
+
+#switch>span>span {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-color: royalblue;
+    border-radius: 50%;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+}
+
+#switch>input:checked+span>span {
+    left: auto;
+    right: 1px;
+}
+
+#switch>input:checked+span {
+    background-color: rgb(62, 178, 255);
+}
+
+/**/
+
+.wrapper {
+    width: 200px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.wrapper .header {
+    height: 30px;
+    background-color: sandybrown;
+}
+
+.wrapper .content div {
+    display: none;
+}
+
+.wrapper .content input {
+    display: none;
+}
+
+.wrapper .content input:checked+div {
+    display: block;
+}
+
+.wrapper .header label {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 50px;
+    color: white;
+    border-right: 1px solid #ebebeb;
+    float: left;
+}
+
+.wrapper .header label:hover {
+    background-color: rgb(202, 121, 50);
+    cursor: pointer;
+}
+
+/**/
+
+.hover-btn {
+    margin-top: 10px;
+}
+
+.hover-btn button {
+    display: inline-block;
+    font-size: 10px;
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+    position: relative;
+    border-radius: 15px;
+    background-color: mediumspringgreen;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.hover-btn button>span:first-child {
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    padding-left: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+.hover-btn button>span:last-child {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    background-color: rgba(6, 211, 40, 0.2);
+    width: 26px;
+    height: 26px;
+    border-radius: 14px;
+}
